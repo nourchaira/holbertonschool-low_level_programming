@@ -5,22 +5,20 @@
  */
 int main(void)
 {
-	    char lowercase = 'a';
-	        char uppercase = 'A';
+	char letter;
 
-		    while (lowercase <= 'z')
-			        {
-					        putchar(lowercase);
-						        lowercase++;
-							    }
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+	putchar(letter);
+	}
 
-		        while (uppercase <= 'Z')
-				    {
-					            putchar(uppercase);
-						            uppercase++;
-							        }
+	for (letter = 'A'; letter <= 'Z'; letter++)
+	{
+	putchar(letter);
+	}
 
-			    putchar('\n');
+	putchar('\n');
 
-			        return (0);
+	return (0);
 }
+
