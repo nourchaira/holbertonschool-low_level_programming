@@ -1,7 +1,5 @@
-
-#include <stdio.h>
 #include "main.h" // Include the necessary header file if available
-
+#include <stdio.h>
 /**
  * main - Entry point
  *
