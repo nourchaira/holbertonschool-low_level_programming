@@ -1,9 +1,14 @@
 #include "main.h"
 
-int main(void)
+/**
+ * _abs - Computes the absolute value of an integer
+ * @n: The input integer
+ *
+ * Return: Absolute value of n
+ */
+int _abs(int n)
 {
-	int number = -42;
-	int abs_value = absolute_value(number);
-	printf("Absolute value of %d is: %d\n", number, abs_value);
-	return 0;
+	if (n < 0)
+		return -n;
+	return n;
 }
