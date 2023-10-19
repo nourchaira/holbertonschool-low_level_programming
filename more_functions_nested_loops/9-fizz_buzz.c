@@ -1,29 +1,34 @@
 #include <stdio.h>
-
-int main()
+/**
+ *main - program that prints either number
+ *or fizz or buzz or fizzBuzz
+ *
+ *
+ *Return: returns 0
+ */
+int main(void)
 {
-	for (int number = 1; number <= 100; number++)
-	{
-		if (number % 3 == 0 && number % 5 == 0)
-		{
+	int num;
+	while (num++ < 100)
+
+		if ((num % 3 == 0) && (num % 5 == 0))
 			printf("FizzBuzz ");
-		}
-		else if (number % 3 == 0)
-		{
+
+		else if ((num % 3) == 0)
 			printf("Fizz ");
-		}
-		else if (number % 5 == 0)
+
+		else if ((num % 5) == 0)
 		{
-			printf("Buzz ");
+			if (num != 100)
+				printf("Buzz ");
+
+			else
+				printf("Buzz");
 		}
+
 		else
-		{
-			printf("%d ", number);
-		}
-	}
+			printf("%d ", num);
 
-	// Print a new line at the end
 	printf("\n");
-
-	return 0;
+	return (0);
 }
