@@ -4,7 +4,7 @@
  * print_every_other - Prints every other character of a string.
  * @str: The input string.
  */
-void print_every_other(char *str)
+void puts2(char *str)
 {
 	int i;
 
