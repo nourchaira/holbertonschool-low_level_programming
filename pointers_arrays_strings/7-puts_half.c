@@ -1,13 +1,14 @@
 Mohamed Nour
 #include "main.h"
 
-/**
- * puts_half - check the code
- * @str :char
- * Return: Always 0.
- */
+	/**
+	 * puts_half - check the code
+	 * @str :char
+	 * Return: Always 0.
+	 */
 
-void puts_half(char *str)
+	void
+	puts_half(char *str)
 {
 	int i;
 
