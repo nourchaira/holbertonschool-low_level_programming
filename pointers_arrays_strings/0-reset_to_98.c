@@ -7,6 +7,8 @@
  * and updates the value it points to with 98.
  */
 void reset_to_98(int *n0);
+
 {
-	*n = (98);
+	*n = 98;
+	
 }
