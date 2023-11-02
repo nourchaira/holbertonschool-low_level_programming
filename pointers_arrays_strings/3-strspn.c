@@ -10,18 +10,18 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-    unsigned int length = 0;
-    int is_accept[256] = {0};
+	unsigned int length = 0;
+	int is_accept[256] = {0};
 
-    while (*accept != '\0')
-    {
-        is_accept[(unsigned char)*accept] = 1;
-        accept++;
-    }
-    while (*s != '\0' && is_accept[(unsigned char)*s])
-    {
-        length++;
-        s++;
-    }
-    return (length);
+	while (*accept != '\0')
+	{
+		is_accept[(unsigned char)*accept] = 1;
+		accept++;
+	}
+	while (*s != '\0' && is_accept[(unsigned char)*s])
+	{
+		length++;
+		s++;
+	}
+	return (length);
 }
