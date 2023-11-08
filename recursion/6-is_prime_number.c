@@ -2,35 +2,27 @@
 #include <stdio.h>
 
 /**
- * sqrt2 - check the code
+ * is_prime_number - check the code
  * @n :integer
- * @guess : interger
  * Return: Always 0.
  */
 
-int sqrt2(int n, int guess)
+int is_prime_number(int n)
 {
-	if (guess * guess == n)
+	if (n < 0)
 	{
-		return (guess);
+		return (0);
 	}
-	else if (guess * guess > n)
+	if (n == 1)
 	{
-		return (-1);
+		return (0);
+	}
+	if (n / 2 == 0)
+	{
+		return (0);
 	}
 	else
 	{
-		return (sqrt2(n, guess + 1));
+		return (1);
 	}
-}
-
-/**
- * _sqrt_recursion - check the code
- * @n :integer
- * Return: Always 0.
- */
-
-int _sqrt_recursion(int n)
-{
-	return (sqrt2(n, 1));
 }
