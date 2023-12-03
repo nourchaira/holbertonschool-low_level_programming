@@ -40,7 +40,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		select->prev->next = select->next;
 		select->next->prev = select->prev;
 	}
-	if (selecte->prev != NULL && select->next == NULL)
+	if (select->prev != NULL && select->next == NULL)
 		select->prev->next = NULL;
 	free(select);
 	return (1);
