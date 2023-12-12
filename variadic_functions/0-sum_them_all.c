@@ -14,11 +14,11 @@ int sum_them_all(const unsigned int n, ...)
 	va_list argm;
 
 	if (!n)
-	
+
 	{
 		return (0);
 	}
-	
+
 	va_start(argm, n);
 	while (i != 0)
 	{
