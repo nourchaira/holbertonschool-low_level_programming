@@ -5,7 +5,7 @@
  * _strcat - check the code
  * @src : char
  * @dest : char
- * Return: dest.
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
