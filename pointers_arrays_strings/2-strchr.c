@@ -5,7 +5,7 @@
  * _strchr - check the code
  * @s : char
  * @c : char
- * Return: Always 0.
+ * Return: Always 0
  */
 
 char *_strchr(char *s, char c)
