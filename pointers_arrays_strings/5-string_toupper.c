@@ -4,7 +4,7 @@
 /**
  * string_toupper - check the code
  *@str :char
- * Return: Always 0.
+ * Return: Always 0
  */
 
 char *string_toupper(char *str)
