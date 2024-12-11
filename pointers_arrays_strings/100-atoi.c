@@ -3,7 +3,7 @@
 /**
  * _atoi - check the code
  * @s : char
- * Return: Always 0.
+ * Return: Always 0
  */
 int _atoi(char *s)
 {
