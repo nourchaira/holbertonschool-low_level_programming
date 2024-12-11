@@ -5,7 +5,7 @@
  * _strspn - check the code
  * @s : char
  * @accept : char
- * Return: Always 0.
+ * Return: Always 0
  */
 
 unsigned int _strspn(char *s, char *accept)
