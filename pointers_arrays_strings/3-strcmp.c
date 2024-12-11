@@ -5,7 +5,7 @@
  * _strcmp - check the code
  * @s1 : char
  * @s2 : char
- * Return: dest.
+ * Return: dest
  */
 
 int _strcmp(char *s1, char *s2)
