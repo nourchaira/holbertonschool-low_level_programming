@@ -4,7 +4,7 @@
  * main - Entry point
  * @argc: integer
  * @argv: char
- * Return: void (Success)
+ * Return: void (Success).
  */
 int main(int argc, char *argv[])
 {
