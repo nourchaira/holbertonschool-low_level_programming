@@ -4,7 +4,7 @@
 /**
  * factorial - check the code
  * @n :integer
- * Return: Always 0.
+ * Return: Always 0
  */
 
 int factorial(int n)
