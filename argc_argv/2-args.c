@@ -3,7 +3,7 @@
  * main - Entry point
  * @argc: integer
  * @argv: char
- * Return: void (Success)
+ * Return: void (Success).
  */
 int main(int argc, __attribute__((unused)) char *argv[])
 {
