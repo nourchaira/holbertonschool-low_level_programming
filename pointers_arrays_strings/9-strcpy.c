@@ -3,8 +3,8 @@
 
 /**
  * *_strcpy - check the code
- * @src : char
- * @dest : char
+ * @src : char.
+ * @dest : char.
  * Return: dest.
  */
 
