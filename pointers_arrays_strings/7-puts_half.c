@@ -3,7 +3,7 @@
 	/**
 	 * puts_half - check the code
 	 * @str :char
-	 * Return: Always 0.
+	 * Return: Always 0
 	 */
 
 	void
