@@ -4,7 +4,7 @@
 /**
  * _strlen_recursion - check the code
  * @s :char
- * Return: Always 0.
+ * Return: Always 0
  */
 
 int _strlen_recursion(char *s)
