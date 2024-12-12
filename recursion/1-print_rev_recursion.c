@@ -3,7 +3,7 @@
 /**
  * _print_rev_recursion - check the code
  * @s : char
- * Return: Always 0.
+ * Return: Always 0
  */
 
 void _print_rev_recursion(char *s)
