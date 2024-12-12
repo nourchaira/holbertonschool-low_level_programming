@@ -5,7 +5,7 @@
  * sqrt2 - check the code
  * @n :integer
  * @guess : interger
- * Return: Always 0.
+ * Return: Always 0
  */
 
 int sqrt2(int n, int guess)
