@@ -1,13 +1,12 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * main - program that prints its name
+ * main - Entry point
  * @argc: integer
- * @argv: storage
- * Return: 0
+ * @argv: char
+ * Return: void (Success)
  */
-int main(int argc, char *argv[])
+int main(__attribute__((unused)) int argc, char *argv[])
 {
-    (void)argc;
     printf("%s\n", argv[0]);
     return (0);
 }
