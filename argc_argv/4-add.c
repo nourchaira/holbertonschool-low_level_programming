@@ -1,51 +1,40 @@
-#include "main.h"
-/**
- *isnumber - check if number
- *@argc: integer
- *@argv: string
- * Return: 0,1
- */
-int isnumber(int argc, char *argv[])
-{
-    int x, y;
-
-    for (x = 1; x < argc; x++)
-    {
-        y = 0;
-        while (argv[x][y] != '\0')
-        {
-            if ((argv[x][y] < 47) || (argv[x][y] > 58))
-            {
-                return (0);
-            }
-            y++;
-        }
-    }
-    return (1);
-}
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 /**
  * main - Entry point
- *@argc: int
- *@argv: string
- * Return: 0,1
+ * @argc: integer
+ * @argv: char
+ * Return: void (Success)
  */
 int main(int argc, char *argv[])
 {
-    int i;
-    int sum = 0;
-
-    if (isnumber(argc, argv) == 0)
+    if (argc < 2)
     {
-        printf("Error\n");
-        return (1);
+        printf("0\n");
     }
     else
     {
+        int i;
+        int res = 0;
+
         for (i = 1; i < argc; i++)
         {
-            sum = sum + atoi(argv[i]);
+            int leng = strlen(argv[i]);
+            int j;
+
+            for (j = 0; j < leng; j++)
+            {
+                if (!isdigit(argv[i][j]))
+                {
+                    printf("Error\n");
+                    return (1);
+                }
+            }
+            res += atoi(argv[i]);
         }
-        printf("%d\n", sum);
-        return (0);
+        printf("%d\n", res);
     }
+    return (0);
 }

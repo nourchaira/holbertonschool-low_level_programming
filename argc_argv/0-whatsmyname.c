@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * @argc: integer
- * @argv: char
+ * @argc: integer.
+ * @argv: char.
  * Return: void (Success)
  */
 int main(__attribute__((unused)) int argc, char *argv[])

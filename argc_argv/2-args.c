@@ -1,15 +1,17 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * main - program that prints the number of arguments passed into it
+ * main - Entry point
  * @argc: integer
- * @argv: storage
- * Return: 0
+ * @argv: char
+ * Return: void (Success)
  */
-int main(int argc, char *argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 {
-    int i;
+    int count;
 
-    for (i = 0; i < argc; i++)
-        printf("%s\n", argv[i]);
+    for (count = 0; count < argc; count++)
+    {
+        printf("%s\n", argv[count]);
+    }
     return (0);
 }
